@@ -66,7 +66,7 @@ const  NavBar=({cart,onRemove}) =>{
                   onClick={() => setIsCartOpen(!true)}
                 />)}
               {cart.length > 0 && (
-                <span className="absolute top-3 right-9 lg:right-5 md:right-4  bg-red-500 text-white text-xs rounded-full px-1 py-0">
+                <span className="absolute top-3 right-9 lg:right-10 md:right-4  bg-red-500 text-white text-xs rounded-full px-1 py-0">
                   {cart.length}
                 </span>
               )}
